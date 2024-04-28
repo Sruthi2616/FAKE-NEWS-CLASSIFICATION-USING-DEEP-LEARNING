@@ -8,6 +8,18 @@
 >The LSTM-based architecture demonstrates promising results, achieving an accuracy of 86% on the FNC dataset. Long Short-Term Memory (LSTM) networks are renowned for their ability to capture sequential dependencies within data, making them particularly suitable for analyzing text .
 >In contrast, the CNN-based architecture excels in accuracy, attaining and 87% on the FNC dataset. Convolutional Neural Networks (CNNs) are adept at capturing spatial hierarchies within data, making them well-suited for tasks such as image recognition and, as demonstrated here, textual analysis . 
 The BERT-based architecture, leveraging Bidirectional Encoder Representations from Transformers (BERT), achievesits performance on the FNC dataset, with an accuracy of 76%, falls short compared to the CNN-based architecture
+# APPROACH
+The foundation of any machine learning endeavor lies in the quality and relevance of the data. In the context of combating fake news, this entails collecting a diverse range of news articles from various sources. However, raw data often contains noise, inconsistencies, and biases that can hinder model performance. Hence, a crucial initial step involves meticulous data preprocessing.
+This preprocessing stage involves several tasks:
+        >Cleaning
+        >Normalization
+        >Tokenization
+        >Stopword Removal
+        >Lemmatization/Stemming
+        >Training Deep Neural Networks
+        >Data Training 
+        >Testing on Datasets
+
 # CONCLUSION
 >Combining LSTM, BERT, and CNN can offer a more comprehensive understanding and detection of fake news by leveraging their unique strengths.
 >Deep learning models like LSTM, BERT, and CNN can be scaled to handle large datasets, making them adaptable to the growing volume of online content.
